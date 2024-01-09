@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar" />
+
+    <!-- EditTexts for design information -->
+    <EditText
+        android:id="@+id/designNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Design Name"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/designDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/designNameEditText"
+        android:hint="Design Description"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <!-- Button to save the new design -->
+    <Button
+        android:id="@+id/saveDesignButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/designDescriptionEditText"
+        android:layout_marginTop="16dp"
+        android:text="Save Design" />
+
+</RelativeLayout>

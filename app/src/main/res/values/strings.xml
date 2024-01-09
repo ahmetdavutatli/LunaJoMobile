@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LunaJoMobile</string>
+    <string-array name="user_types">
+        <item>Designer</item>
+        <item>Manufacturer</item>
+    </string-array>
+    <string name="choose_user_type">Choose User Type</string>
+</resources>
